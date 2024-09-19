@@ -8,7 +8,7 @@ The iHunter world includes the following models:
 
 1. **Ground Station**: Central control hub for managing operations.
 2. **Pickup**: Holds the interceptor unit for deployment.
-3. **Military Base**: Complete with the Saudi Arabian flag, representing a defense location.
+3. **Military Base**: Military Base with the Saudi Arabian flag.
 4. **Radar Pole**: Essential for hold Radar.
 5. **Ground Radar**: A system for tracking incoming objects or threats.
 6. **Radio Tower**: Facilitates communication across the environment.

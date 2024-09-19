@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sdf version="1.9">
   <model name="red_box">
-    <static>false</static>
+    <static>true</static>
     <link name="link">
       <collision name="collision">
         <geometry>
@@ -17,8 +17,8 @@
           </box>
         </geometry>
         <material>
-          <ambient>1 0 0 1</ambient>
-          <diffuse>1 0 0 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+          <diffuse>0 0 1 1</diffuse>
           <specular>0.5 0.5 0.5 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
