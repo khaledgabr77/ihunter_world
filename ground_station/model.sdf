@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <model name="ground_station">
+    <static>true</static>
+
+    <!-- Include the tent model -->
+    <include>
+      <name>tent</name>
+      <uri>model://ground_station/tent</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Include the first foldable table -->
+    <include>
+      <name>table_a</name>
+      <uri>model://ground_station/foldable_table</uri>
+      <pose>0.5 0.9 0.0 0.0 0.0 0.0</pose>
+    </include>
+
+    <!-- Include the second foldable table -->
+    <include>
+      <name>table_b</name>
+      <uri>model://ground_station/foldable_table</uri>
+      <pose>1.0 -0.5 0.0 0.0 0.0 1.57</pose>
+    </include>
+
+    <!-- Include the first foldable chair -->
+    <include>
+      <name>chair_a</name>
+      <uri>model://ground_station/foldable_chair</uri>
+      <pose>-0.0 0 0 0 0 1.57</pose>
+    </include>
+
+    <!-- Include the second foldable chair -->
+    <include>
+      <name>chair_b</name>
+      <uri>model://ground_station/foldable_chair</uri>
+      <pose>0 0 0 0 0 -1.57</pose>
+    </include>
+
+    <!-- Include the third foldable chair -->
+    <include>
+      <name>chair_c</name>
+      <uri>model://ground_station/foldable_chair</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+  </model>
+</sdf>

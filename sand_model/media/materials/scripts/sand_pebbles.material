@@ -1,0 +1,20 @@
+material SandPebbles
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.1 0.1 0.1 1.0
+      emissive 0.0 0.0 0.0 1.0
+      shading phong
+      texture_unit
+      {
+        // Relative to the location of the material script
+        texture ../textures/sand_pebbles.png
+        // Repeat the texture over the surface
+      }
+    }
+  }
+}
